@@ -55,10 +55,12 @@
             },
             "zh":{
               "aot":true,
-              "outputPath": "dist/angular-cli-i18n-sample",
+              "outputPath": "dist/angular-cli-i18n-sample-zh",
               "i18nFile": "src/i18n/messages.zh.xlf",
               "i18nFormat": "xlf",
-              "i18nLocale": "zh"
+              "i18nLocale": "zh",
+              "i18nMissingTranslation": "error",
+              "baseHref": "/zh/"
             }
 
 
