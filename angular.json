@@ -52,7 +52,16 @@
                   "maximumError": "5mb"
                 }
               ]
+            },
+            "zh":{
+              "aot":true,
+              "outputPath": "dist/angular-cli-i18n-sample",
+              "i18nFile": "src/i18n/messages.zh.xlf",
+              "i18nFormat": "xlf",
+              "i18nLocale": "zh"
             }
+
+
           }
         },
         "serve": {
@@ -63,6 +72,9 @@
           "configurations": {
             "production": {
               "browserTarget": "angular-cli-i18n-sample:build:production"
+            },
+            "zh":{
+              "browserTarget": "angular-cli-i18n-sample:build:zh"
             }
           }
         },
